@@ -1,0 +1,231 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-image: url("./imagens/fundo1.jpg");
+    background-size: cover; /* ajustar o tamanho da imagem */
+    background-position: center; /* posicionar a imagem */
+    background-repeat: no-repeat; /* evitar repetição da imagem */
+    height: 200px; /* altura do header */
+}
+
+.cabecalho h1 {
+    font-family: cursive;
+    font-size: 36px;
+    color: #fff;
+    -webkit-text-stroke: 2px #070707; /* cor da borda e a largura */
+    text-align: center; /* centraliza o texto no header */
+    padding-top: 20px; /* espaçamento do topo para centralizar o texto */
+}
+
+.cabecalho h3 {
+    color: #fff; /* cor do texto no header */
+    text-align: center; /* centraliza o texto no header */
+    -webkit-text-stroke: 0.5px #070707;
+}
+
+.icons ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.icons li {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.icons li:first-child {
+    margin-right: 10;
+}
+
+.icons a {
+    color: #070707;
+}
+
+
+.menu ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+.menu li:first-child {
+    margin-right: 10;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.divisao {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: #931b08;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cardapio {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dfddc6;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.cardapio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cardapio li {
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+
+.item img {
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(232, 234, 237);
+    background-color: rgb(198, 205, 212);
+    object-fit: cover;
+}
+
+.icons img {
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(232, 234, 237);
+    background-color: rgb(198, 205, 212);
+    object-fit: cover;
+}
+
+.item {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #dfddc6;
+}
+
+.cardapio li:last-child {
+    border-bottom: none;
+}
+
+.cardapio h2 {
+    margin: 0;
+}
+
+.cardapio p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+iframe{
+    width: 500px;
+    height: 150px;
+    border: #333;
+    border-style: solid;
+    align-self: right;
+}
+
+.mapa-borda {
+    border: 2px solid #3333335b; /* Borda de 5px sólida em cinza claro */
+    padding: 1px; /* Espaçamento interno para afastar o mapa da borda */
+    display: inline-block; /* Ajustar a borda ao redor do mapa*/
+    align-self: right;
+    margin-left: 20%;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.about-text h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-text p {
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about-image img {
+    size: cover;
+    height: auto; /* Mantém a proporção original da imagem */
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(232, 234, 237);
+}
+
